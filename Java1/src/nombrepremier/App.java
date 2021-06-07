@@ -32,7 +32,6 @@ public class App
     for(i = 2; i <= n-1; i++) // n-1==Math.sqrt(n)
     {
         
-
         if(n%i == 0) 
         {
             k = 1;
