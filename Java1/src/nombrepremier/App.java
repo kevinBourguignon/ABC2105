@@ -24,7 +24,7 @@ public class App
         
       System.out.println("vous avez choisi le nombre : " +n);
       
-      sc.close(); // obligatoire (libère les ressources);
+      sc.close(); // obligatoire (libère les ressources)
 
          k = 0;
      
