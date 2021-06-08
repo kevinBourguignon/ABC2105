@@ -8,7 +8,7 @@ public class App
    public static void main(String[] args) {
       
    int n;
-   int k;
+   Boolean k;
    Scanner sc;
    double i;
    
@@ -20,13 +20,14 @@ public class App
      sc = new Scanner(System.in);
      n = sc.nextInt();
 
+
             
         
       System.out.println("vous avez choisi le nombre : " +n);
       
       sc.close(); // obligatoire (libère les ressources)
 
-         k = 0;
+         k = false;
      
 
     for(i = 2; i <= n-1; i++) // n-1==Math.sqrt(n)
@@ -34,11 +35,11 @@ public class App
         
         if(n%i == 0) 
         {
-            k = 1;
+            k = true;
             }
                  
     }
-        if (k == 1)
+        if (k == false)
          {
              System.out.println(n+ "n'est pas premier");
          }   
