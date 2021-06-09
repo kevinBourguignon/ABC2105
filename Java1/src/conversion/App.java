@@ -10,7 +10,6 @@ public class App
 
         double kilometre;
         double miles;
-        boolean Q;
         Scanner sc;
 
         System.out.println("Convertir les Kilomètre en Miles");
@@ -19,13 +18,13 @@ public class App
 
         sc = new Scanner(System.in);
         kilometre = sc.nextDouble();
-        miles = sc.nextDouble();
+        
         
 
-        kilometre = 0;
+        
 
         do {
-            System.out.println("Veuillez rentrer un nombre : " +kilometre );
+            System.out.println("Veuillez rentrer un nombre : " );
         }
         while (kilometre < 0.01 || kilometre > 1000000);
         
@@ -33,10 +32,7 @@ public class App
 
         System.out.println(miles+ "Miles");
 
-        if(Q == false)
-        {
-            Q = true;
-        }
+        
 
 
 
