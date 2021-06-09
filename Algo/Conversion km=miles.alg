@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Algo>
-    <description texte="" courant="TANT_QUE (km&lt;0.01 ET km&lt;1000000) FAIRE"/>
+    <description texte="" courant="AFFICHER &quot;la valeur est hors limite&quot;"/>
     <extension extnom="inactif"/>
     <fonction fctcode="" fctetat="inactif"/>
     <F2 F2defaut="" F2para="" F2lignes="" F2etat="inactif"/>
@@ -19,7 +19,7 @@
         <item code="20#km/1.609#0" algoitem="AFFICHERCALCUL km/1.609"/>
         <item code="15#km&lt;0.01 ET km&lt;1000000" algoitem="TANT_QUE (km&lt;0.01 ET km&lt;1000000) FAIRE">
             <item code="16#debuttantque" algoitem="DEBUT_TANT_QUE"/>
-            <item code="6#km/1.609 == 0" algoitem="SI (km/1.609 == 0) ALORS">
+            <item code="6#km/1.609 &lt;1000000" algoitem="SI (km/1.609 &lt;1000000) ALORS">
                 <item code="7#debutsi" algoitem="DEBUT_SI"/>
                 <item code="5#q#1#pasliste" algoitem="q PREND_LA_VALEUR 1"/>
                 <item code="8#finsi" algoitem="FIN_SI"/>
