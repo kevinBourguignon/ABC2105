@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Algo>
-    <description texte="" courant="miles PREND_LA_VALEUR km"/>
+    <description texte="" courant="AFFICHER &quot; km &quot;"/>
     <extension extnom="inactif"/>
     <fonction fctcode="" fctetat="inactif"/>
     <F2 F2defaut="" F2etat="inactif" F2para="" F2lignes=""/>
