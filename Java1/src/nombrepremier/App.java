@@ -1,3 +1,4 @@
+
 package nombrepremier;
 
 import java.util.Scanner; // importer le composant Scanner
