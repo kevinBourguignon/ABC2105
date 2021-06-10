@@ -11,22 +11,15 @@ public class App
         double kilometre;
         double miles;
         Scanner sc;
-        String q = "";
+        String saisie;
+        String [] chaine; 
         
         System.out.println("Convertir les Kilomètre en Miles");
         
         sc = new Scanner(System.in);
+        saisie = sc.nextLine(); // peut recevoir q ou un nombre
+                  
         
-        System.out.println("Saisissez une chaine : ");
-         sc.nextLine(); 
-        System.out.println(" Appuyer sur une touche pour quitter ");
-        
-       
-        
-        
-        
-
-
         // vos Algoritme
        
         
@@ -40,6 +33,12 @@ public class App
         miles = kilometre*1/ 1.609;
         System.out.printf("%.2f kilomètre = %.2f Miles", kilometre ,miles);
         
+        if(saisie = q);
+        {
+            System.out.println("fin du programme");
+            System.exit(0);
+
+        }
         
         
         
