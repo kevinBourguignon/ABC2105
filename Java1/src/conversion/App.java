@@ -22,10 +22,6 @@ public class App
        sc = new Scanner(System.in);
        
        
-       
-
-        
-
         // vos Algoritme
        
          
@@ -46,22 +42,7 @@ public class App
             System.exit(0); // si on rentre q le programme s'arrête
         }
        
-         
-            
-        
-            
-            
-
           
-        
-
-        
-
-        
-       
-
-        
-        
         
         
 
