@@ -30,19 +30,20 @@ public class App
        
          
         do {           
-            System.out.println("Veuillez rentrer le kilométrage : "); 
+            System.out.println("Veuillez rentrer le kilométrage : ");  
             kilometre = sc.nextDouble();
         } 
-        while (kilometre < 0.01 || kilometre > 1000000);
+        while (kilometre < 0.01 || kilometre > 1000000); // fera le calcul si les kilometres et entre les deux proposition
 
         saisie = sc.nextLine(); // peut recevoir q ou un nombre
+        
         miles = kilometre*1/ 1.609;
         System.out.printf("%.2f kilomètre = %.2f Miles", kilometre ,miles);
          
                 
         if(saisie == "q") 
         {
-            System.exit(0); 
+            System.exit(0); // si on rentre q le programme s'arrête
         }
        
          
