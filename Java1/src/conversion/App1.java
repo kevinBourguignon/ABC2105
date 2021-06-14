@@ -26,6 +26,13 @@ public class App1
         }
         while (kilometre < 0.01 || kilometre > 1000000);
 
+        do
+        {
+            System.out.println("Veuillez rentrer le miles : ");
+            miles = sc.nextDouble();
+        }
+        while (miles < 0.01 || miles > 1000000);
+
         saisie = sc.nextLine(); // peut recevoir q ou un nombre 
 
         miles = kilometre*1.609;
@@ -35,6 +42,7 @@ public class App1
         {
             System.exit(0); // si on rentre q le programme s'arrête
         }
+        else if()
 
         
 
