@@ -18,31 +18,31 @@ public class App1
         sc = new Scanner(System.in);
 
         //Vos algorithme
-
+        
+        
+        saisie = sc.nextLine(); // peut recevoir q ou un nombre 
         do
         {
             System.out.println("Veuillez rentrer le kilométrage : ");
             kilometre = sc.nextDouble();
+        
+        
         }
         while (kilometre < 0.01 || kilometre > 1000000);
-
-        do
-        {
-            System.out.println("Veuillez rentrer le miles : ");
-            miles = sc.nextDouble();
-        }
-        while (miles < 0.01 || miles > 1000000);
-
-        saisie = sc.nextLine(); // peut recevoir q ou un nombre 
 
         miles = kilometre*1.609;
         kilometre = miles/1.609;
 
-        
+        chaine = saisie.split(" ");
+
+         int valeur = Integer.parseInt(chaine[0]);
+
+        System.out.println(valeur  + " miles");
 
         
 
         
+
 
         sc.close();
         
