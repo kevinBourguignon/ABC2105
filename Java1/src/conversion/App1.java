@@ -38,11 +38,7 @@ public class App1
         miles = kilometre*1.609;
         kilometre = miles/1.609;
 
-        if(saisie == "q")
-        {
-            System.exit(0); // si on rentre q le programme s'arrête
-        }
-        else if()
+        
 
         
 
