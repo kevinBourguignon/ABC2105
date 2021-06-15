@@ -22,7 +22,7 @@ public class App
         // vos Algoritme
        
          do{
-             System.out.println("Entrer les kilomètre");
+             System.out.println("Entrer les kilomètre ou appuyer sur q"); // mettre un nombre pour continuer ou une lettre pour arréter
              kilometre = sc.nextDouble();
              double miles = kilometre * 1.609;
              
@@ -34,9 +34,10 @@ public class App
          }while(kilometre <= 0.01 || kilometre >= 1000000);
          
          if(saisie == "q") 
-        {
+        {   
+            
             System.out.println("Quitte le programme");
-            System.exit(0); // si on rentre q le programme s'arrête
+            
         }
          
         
