@@ -22,7 +22,7 @@ public class App
         
 
 
-        System.out.format("Area of circulaire = %.2f\n", surface);
+        System.out.format("Aire du cercle = %.2f\n", surface);
        
 
 
