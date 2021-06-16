@@ -14,7 +14,7 @@ public class App
 
         scanner = new Scanner(System.in);
 
-        System.out.println("enter radius of cercle");
+        System.out.println("entrer le rayon du cercle");
         radius = scanner.nextDouble();
         angleDeg = scanner.nextDouble();
 
