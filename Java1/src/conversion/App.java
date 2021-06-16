@@ -43,7 +43,7 @@ public class App
            if(kilometre < 0.01 || kilometre > 1000000)
            {
                System.out.println("veuillez choisir un notre nombre compris entre 0.01 ou 1 000 000");
-               continue;
+               continue; // sa te permet de rerentrer la saisie 
 
            }
    
