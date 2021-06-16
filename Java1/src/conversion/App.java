@@ -47,7 +47,7 @@ public class App
 
            }
    
-             kilometre = sc.nextDouble();
+             
              double miles = kilometre * 1.609;
              
              System.out.printf("%.2f kilometre = %.3f miles", kilometre, miles);

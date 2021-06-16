@@ -13,16 +13,19 @@ public class App1
         String saisie;
         String [] chaine;
 
-        System.out.println("Conversion dans les deux sens Km <-> Miles");
-
-        sc = new Scanner(System.in);
+       
+        
 
         //Vos algorithme
         
         
-        saisie = sc.nextLine(); // peut recevoir q ou un nombre 
+        
         do
         {
+            System.out.println("Entrer un nombre suivi de miles ou kilometre");
+            sc = new Scanner(System.in);
+            saisie = sc.nextLine(); // peut recevoir q ou un nombre 
+
             System.out.println("Veuillez rentrer le kilométrage : ");
             kilometre = sc.nextDouble();
         
@@ -35,9 +38,9 @@ public class App1
 
         chaine = saisie.split(" ");
 
-         int valeur = Integer.parseInt(chaine[0]);
+         
 
-        System.out.println(valeur  + " miles");
+        
 
         
 
