@@ -7,19 +7,19 @@ public class App
     // code du composant
     public static void main(String[] args) {
 
-        double radius, volume, Area;
+        double rayon, volume, Aire;
         Scanner scanner;
 
         scanner = new Scanner(System.in);
 
-        System.out.println("enter Radius of sphere");
-        radius = scanner.nextDouble();
+        System.out.println("entrer le Rayon de la sphere");
+        rayon = scanner.nextDouble();
 
-        Area = 4*Math.PI*Math.pow(radius,2);
-        volume = 4*Math.PI*Math.pow(radius,3)/3;
+        Aire = 4*Math.PI*Math.pow(rayon,2);
+        volume = 4*Math.PI*Math.pow(rayon,3)/3;
 
-        System.out.format("Area of Sphere = %.2f\n", Area);
-        System.out.format("Volume of Sphere = %.2f\n", volume);
+        System.out.format("Aire de la Sphere = %.2f\n", Aire);
+        System.out.format("Volume de la Sphere = %.2f\n", volume);
 
         
       scanner.close(); // obligatoire (libère les ressources)    
