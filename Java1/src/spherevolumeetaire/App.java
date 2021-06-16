@@ -16,7 +16,7 @@ public class App
         radius = scanner.nextDouble();
 
         Area = 4*Math.PI*Math.pow(radius,2);
-        volume = (4/3)*Math.PI*Math.pow(radius,3);
+        volume = 4*Math.PI*Math.pow(radius,3)/3;
 
         System.out.format("Area of Sphere = %.2f\n", Area);
         System.out.format("Volume of Sphere = %.2f\n", volume);
