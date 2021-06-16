@@ -6,6 +6,11 @@ import java.util.Scanner; //importer les composant du Scanner
 public class App
 
 {
+    public static char getCharFromString(String phrase, int index)
+    {
+        return phrase.charAt(index);
+    }
+
     // code du composant
     public static void main(String[] args) {
 
@@ -15,37 +20,39 @@ public class App
         Scanner sc;
         String saisie;
         String[] chaine;
+
         
-        sc = new Scanner(System.in);
-       
-        saisie = sc.nextLine();
+        
 
         // vos Algoritme
        
          do{
-             System.out.println("Entrer les kilomètre ou appuyer sur q"); // mettre un nombre pour continuer ou une lettre pour arréter
-             
-             
-             
-
-             if(saisie == "q")
+             System.out.println("Entrer les kilomètre ou appuyer sur q pour quitter"); // mettre un nombre pour continuer ou une lettre pour arréter
+             sc = new Scanner(System.in);
+             saisie = sc.nextLine();
+        
+             if(saisie.equals("q"))
              {
-                 System.out.println("quitte le programme");
+                 System.out.println("quitter le programme");
                  System.exit(0);
            }
-           else 
-          {
-              Int q = Integer.parseInt(saisie);
-          }
 
+           chaine = saisie.split(" ");
+           kilometre = Double.parseDouble(chaine[0]);
+
+           if(kilometre < 0.01 || kilometre > 1000000)
+           {
+               System.out.println("veuillez choisir un notre nombre compris entre 0.01 ou 1 000 000");
+               continue;
+
+           }
+   
              kilometre = sc.nextDouble();
              double miles = kilometre * 1.609;
              
-             System.out.printf("%.2f miles", miles);
+             System.out.printf("%.2f kilometre = %.3f miles", kilometre, miles);
              
-              
-
-             
+   
     
             }while(kilometre <= 0.01 || kilometre >= 1000000);
             
