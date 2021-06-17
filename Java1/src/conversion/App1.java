@@ -49,10 +49,7 @@ public class App1
             }
 
            
-           {
-
-           }
-                       
+                                  
 
         }while (kilometre <= 0.01 || kilometre >= 1000000); 
         
