@@ -17,6 +17,8 @@ public class App1
         Scanner sc;
         String saisie;
         String[] chaine;
+        String[] tableau;
+        int km, mi;
     
         
 
@@ -36,10 +38,13 @@ public class App1
            }
 
            chaine = saisie.split(" ");
-                      
+           tableau = saisie.split(" ");
 
            kilometre = Double.parseDouble(chaine[0]);
            miles = Double.parseDouble(chaine[0]);
+
+           km = Integer.parseInt(tableau[1]);
+           mi = Integer.parseInt(tableau[1]);
 
           
            if(kilometre < 0.01 || kilometre > 1000000)
