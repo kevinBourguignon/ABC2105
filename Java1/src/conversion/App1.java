@@ -14,10 +14,10 @@ public class App1
 
         double kilometre;
         double miles;
-        int km, mi;
         Scanner sc;
         String saisie;
         String[] chaine;
+    
         
 
    
@@ -36,7 +36,7 @@ public class App1
            }
 
            chaine = saisie.split(" ");
-                     
+                      
 
            kilometre = Double.parseDouble(chaine[0]);
            miles = Double.parseDouble(chaine[0]);
@@ -48,23 +48,19 @@ public class App1
                continue; // sa te permet de rerentrer la saisie 
             }
 
-            if(miles <= 0.01 || miles >= 1000000)
-            {
-                miles = kilometre/1.609;
-                return miles;
-            }
+           
+           {
 
-            if()
-            {
-                kilometre = miles*1.609;
-                return kilometre;
-            }
-               
+           }
+                       
 
         }while (kilometre <= 0.01 || kilometre >= 1000000); 
         
-        
+        miles = kilometre/1.609;
+        kilometre = miles*1.609;
+               
         System.out.printf("%.2f kilometre = %.3f miles", kilometre, miles);
+        
 
 
         sc.close();
