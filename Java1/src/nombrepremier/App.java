@@ -28,21 +28,21 @@ public class App
       
       sc.close(); // obligatoire (libère les ressources)
 
-         k = false;
+         k = true;
      
 
-    for(i = 2; i <= n-1; i++) // n-1==Math.sqrt(n)
+    for(i = 2; i < n-1; i++) // n-1==Math.sqrt(n)
     {
         
         if(n%i == 0) 
         {
-            k = true;
+            k = false;
             }
                  
     }
         if (k == false)
          {
-             System.out.println(n+ "n'est pas premier");
+             System.out.println(n+ " n'est pas premier");
          }   
             else
            { 
