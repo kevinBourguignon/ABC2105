@@ -9,6 +9,16 @@ public class App1
         return phrase.charAt(index);
     }
 
+    static double converIntoKms(double miles){
+        double kilometre = miles*1.609;
+        return kilometre;
+    }
+
+    static double convertIntoMiles(double kilometre){
+        double miles = kilometre/1.609;
+        return miles;
+    }
+
     // code du composant 
     public static void main(String[] args) {
 
@@ -17,12 +27,7 @@ public class App1
         Scanner sc;
         String saisie;
         String[] chaine;
-        
-        
-    
-        
-
-   
+ 
         //Vos algorithme
  
         do
@@ -39,6 +44,7 @@ public class App1
 
            chaine = saisie.split(" ");
           
+           
            kilometre = Double.parseDouble(chaine[0]);
            miles = Double.parseDouble(chaine[0]);
 
@@ -47,14 +53,11 @@ public class App1
                System.out.println("veuillez choisir un notre nombre compris entre 0.01 ou 1 000 000");
                continue; // sa te permet de rerentrer la saisie 
             }
-
-                                  
+                     
 
         }while (kilometre <= 0.01 || kilometre >= 1000000); 
         
-        miles = kilometre/1.609;
-        kilometre = miles*1.609;
-               
+        
         System.out.printf("%.2f kilometre = %.3f miles", kilometre, miles);
         
 
