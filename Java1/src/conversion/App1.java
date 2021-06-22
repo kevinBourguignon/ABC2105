@@ -32,8 +32,8 @@ public class App1
  
         do
         {
-            System.out.println("Entrer un nombre suivi de miles ou kilometre");
-            sc = new Scanner(System.in);
+           sc = new Scanner(System.in);
+      
             saisie = sc.nextLine(); // peut recevoir q ou un nombre 
 
             if(saisie.equals("q"))
@@ -53,17 +53,16 @@ public class App1
                System.out.println("veuillez choisir un notre nombre compris entre 0.01 ou 1 000 000");
                continue; // sa te permet de rerentrer la saisie 
             }
-            try {
+              
+                System.out.println("Entrer Distance Miles : ");
+                System.out.println(miles+" Miles égal a : " +converIntoKms(miles)+" KMs");
                 
-            } catch (Exception e) {
-                //TODO: handle exception
-            }
+                System.out.println("Entrer Distance kilometre : ");
+                System.out.println(kilometre+" KMs égal a : "+convertIntoMiles(kilometre)+" Miles");
                      
 
         }while (kilometre <= 0.01 || kilometre >= 1000000); 
         
-        
-        System.out.printf("%.2f kilometre = %.3f miles", kilometre, miles);
         
 
 
