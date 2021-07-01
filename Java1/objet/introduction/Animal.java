@@ -26,5 +26,10 @@ public class Animal
         System.out.println(this.specie + " se déplace. ");
     }
 
+    public void buzz()
+    {
+        System.out.println(this.specie + " bourdonne. ");
+    }
+
     
 }
