@@ -350,3 +350,4 @@ MigrationBackup/
 .ionide/
 Algo/Conversion km=miles.alg
 Enterprise/Class2105.ldb
+*.json
