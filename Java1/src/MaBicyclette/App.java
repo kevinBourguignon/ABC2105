@@ -2,6 +2,8 @@ package MaBicyclette;
 
 import java.util.Scanner;
 
+
+
 public class App {
     
     public static void main(String[] args) 
@@ -11,6 +13,7 @@ public class App {
         boolean etatBicyclette;
         boolean possGoT;
         boolean dispoGoT;
+        
 
         Scanner scanner;
     
@@ -18,12 +21,16 @@ public class App {
     
         System.out.println("Fait-il beau ?");
         beauTemps = scanner.nextBoolean();
+        
+    
 
         if(beauTemps)
         {
             System.out.println("Vous avez indiqué qu'il fait beau.");
             System.out.println("La bicyclette est-elle en bon état ?");
             etatBicyclette = scanner.nextBoolean();
+
+                       
 
             if(etatBicyclette)
             {
