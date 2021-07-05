@@ -28,7 +28,12 @@ public class Animal
 
     public void buzz()
     {
-        System.out.println(this.specie + " bourdonne. ");
+        System.out.println(this.specie + " bourdonne ! ");
+    }
+
+    public void barks()
+    {
+        System.out.println(this.specie + " Aboiement ! ");
     }
 
     

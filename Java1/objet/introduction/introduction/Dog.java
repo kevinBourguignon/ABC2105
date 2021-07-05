@@ -15,7 +15,7 @@ public class Dog extends Animal
     public void barks()
     {
         super.barks();
-        System.out.println(this.getSpecie() + " chien aboye ! ");
+        System.out.println(this.getSpecie() + "  aboye ! ");
     }
 
     public void feed()
