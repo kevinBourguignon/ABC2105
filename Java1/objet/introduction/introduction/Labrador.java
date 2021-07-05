@@ -3,6 +3,10 @@ package introduction;
 
 public class Labrador extends Dog
 {
+    boolean move = true;
+        
+
+       
     public void feed()
     {
         super.feed();
@@ -16,21 +20,16 @@ public class Labrador extends Dog
     public void move()
     {
         System.out.println(this.getSpecie() + " (Labrador) se déplace. ");
-    
-    
-        boolean move;
-        
-
-        move = true;
-
-        if (move == false)
+   
+        if (this.move == false)
      {
-         System.out.println( "se déplace");
+        System.out.println(this.getSpecie() + " (Labrador) ne se déplace pas. ");
      }
      else
      {
-         System.out.println( " ne veut pas se déplacé ");
+        System.out.println(this.getSpecie() + " (Labrador) se déplace. ");
      }
+     this.move = !this.move;
 
     }
     
