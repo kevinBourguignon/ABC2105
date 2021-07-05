@@ -23,11 +23,11 @@ public class Labrador extends Dog
    
         if (this.move == false)
      {
-        System.out.println(this.getSpecie() + " (Labrador) ne se déplace pas. ");
+        System.out.println(this.getSpecie() +" (Labrador) ne se déplace pas. ");
      }
      else
      {
-        System.out.println(this.getSpecie() + " (Labrador) se déplace. ");
+        System.out.println(this.getSpecie() +" (Labrador) se déplace. ");
      }
      this.move = !this.move;
 
