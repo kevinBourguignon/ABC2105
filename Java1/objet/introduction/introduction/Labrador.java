@@ -3,7 +3,7 @@ package introduction;
 
 public class Labrador extends Dog
 {
-    boolean move = true;
+    boolean move = false;
         
 
        
