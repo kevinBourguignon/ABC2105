@@ -8,13 +8,13 @@ public class Dog extends Animal
 
     public Dog()
     {
-        super("chien");
+        super("Marcel");
         System.out.println("constructeur de Dog");
     } 
 
     public void barks()
     {
-        super.barks();
+        
         System.out.println(this.getSpecie() + "  aboye ! ");
     }
 
