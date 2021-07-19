@@ -1,4 +1,4 @@
-
+package cardgame;
 
 /**
  * @author Stagiaire
@@ -7,7 +7,7 @@
  */
 public class Game {
 
-	protected String joueur:player[2];
+	protected String joueur = player[2];
 	protected int tour;
 	private String rules;
 
