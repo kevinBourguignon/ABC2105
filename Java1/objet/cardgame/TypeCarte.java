@@ -16,10 +16,7 @@ public class TypeCarte {
 
 	}
 
-	public void finalize() throws Throwable {
-
-	}
-
+	
 	public int getId(){
 		return 0;
 	}

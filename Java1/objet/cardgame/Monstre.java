@@ -12,9 +12,7 @@ public class Monstre extends TypeCarte {
 
 	}
 
-	public void finalize() throws Throwable {
-		super.finalize();
-	}
+	
 
 	public String getClassName(){
 		return "";

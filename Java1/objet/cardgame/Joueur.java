@@ -17,9 +17,7 @@ public class Joueur {
 
 	}
 
-	public void finalize() throws Throwable {
-
-	}
+	
 
 	public String getPseudo(){
 		return "";

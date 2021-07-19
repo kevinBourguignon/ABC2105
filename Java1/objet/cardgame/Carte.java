@@ -17,9 +17,7 @@ public class Carte {
 
 	}
 
-	public void finalize() throws Throwable {
-
-	}
+	
 
 	public String getName(){
 		return "";
