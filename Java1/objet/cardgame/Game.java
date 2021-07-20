@@ -19,35 +19,17 @@ public class Game {
 
 	}
 
-	public int Attack(){
-		return 0;
-	}
-
-	public int Defense(){
-		return 0;
-	}
 
 	public int Power(){
 		return 0;
 	}
 
-	public int calculAttack(){
-		return 0;
-	}
-
-	public int calculDefense(){
-		return 0;
-	}
-
+	
 	public int LifePoint(){
 		return 0;
 	}
 
 	public int Overdrive(){
-		return 0;
-	}
-
-	public int getTour(){
 		return 0;
 	}
 

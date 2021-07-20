@@ -6,7 +6,7 @@ package cardgame;
  * @version 1.0
  * @created 19-juil.-2021 09:38:08
  */
-public class Monstre extends TypeCarte {
+public class Monstre  {
 
 	public Monstre(){
 
