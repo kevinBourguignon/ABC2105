@@ -27,15 +27,15 @@ public class Joueur {
 	}
 
 	protected String getFirstName(){
-		return "";
+		return this.firstName;
 	}
 
 	protected String getLastName(){
-		return "";
+		return this.lastName;
 	}
 
 	protected String getEmail(){
-		return "";
+		return this.email;
 	}
 
 	/**

@@ -15,11 +15,15 @@ public class App
         
     }
 
-     public static void display(Joueur pseudo, Joueur firstName, Joueur lastName)
+     public static void display(Joueur pseudo)
      {
          System.out.println(pseudo.getPseudo());  
-         System.out.println(firstName.getFirstName());
-         System.out.println(lastName.getLastName());
+         
+     }
+
+     public static void display(Joueur firstName)
+     {
+         
      }
 
      
