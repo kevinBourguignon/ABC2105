@@ -13,9 +13,10 @@ public class Joueur {
 	private String email;
 	
 
-	public Joueur(String _pseudo)
+	public Joueur(String _pseudo, String firstName, String lastName)
 	{
 		this.setPseudo(_pseudo);
+
 	
 
 	}
@@ -27,11 +28,11 @@ public class Joueur {
 	}
 
 	protected String getFirstName(){
-		return "";
+		return this.firstName;
 	}
 
 	protected String getLastName(){
-		return "";
+		return this.lastName;
 	}
 
 	protected String getEmail(){

@@ -13,7 +13,8 @@ public class Carte {
 	private Joueur joueur;
 	private TypeCarte type;
 
-	public Carte(){
+	public Carte()
+	{
 
 	}
 

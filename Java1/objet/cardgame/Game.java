@@ -15,10 +15,7 @@ public class Game {
 
 	}
 
-	public void finalize() throws Throwable {
-
-	}
-
+	
 
 	public int Power(){
 		return 0;
