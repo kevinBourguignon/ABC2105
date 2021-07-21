@@ -7,24 +7,16 @@ public class App
 
         Joueur pseudo = new Joueur("Zavar");
         display(pseudo);
-
-        Joueur firstName = new Joueur("kévin");
-        display(firstName);
-
-       
         
     }
 
-     public static void display(Joueur pseudo)
+     public static void display(Joueur Zavar)
      {
-         System.out.println(pseudo.getPseudo());  
+         System.out.println("ton pseudo est : ");
+         System.out.println(Zavar.getPseudo());  
          
      }
 
-     public static void display(Joueur firstName)
-     {
-         
-     }
 
      
 }
