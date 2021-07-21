@@ -18,16 +18,16 @@ public class Game {
 	
 
 	public int Power(){
-		return 0;
+		return 10;
 	}
 
 	
 	public int LifePoint(){
-		return 0;
+		return 50;
 	}
 
 	public int Overdrive(){
-		return 0;
+		return 1;
 	}
 
 }
