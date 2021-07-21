@@ -15,16 +15,16 @@ public class App
         
     }
 
-     public static void display(Joueur Zavar)
+     public static void display(Joueur zavar)
      {
          System.out.println("ton pseudo est : ");
-         System.out.println(Zavar.getPseudo());  
+         System.out.println(zavar.getPseudo());  
          
      }
 
-     public static void display(Carte Paladin);
+     public static void display(Carte paladin)
      {
-         System.out.println(Paladin.getName());
+         System.out.println(paladin.getName());
      }
 
      
