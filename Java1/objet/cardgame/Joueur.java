@@ -26,15 +26,15 @@ public class Joueur {
 		return this.pseudo;
 	}
 
-	protected String getFirstName(){
+	public String getFirstName(){
 		return this.firstName;
 	}
 
-	protected String getLastName(){
+	public String getLastName(){
 		return this.lastName;
 	}
 
-	protected String getEmail(){
+	public String getEmail(){
 		return this.email;
 	}
 

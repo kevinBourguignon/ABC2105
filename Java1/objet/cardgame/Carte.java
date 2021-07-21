@@ -7,29 +7,30 @@ package cardgame;
  */
 public class Carte {
 
-	private String name;
+	private String Cardname;
 	private int power;
 	private int strength;
 	private Joueur joueur;
 	private TypeCarte type;
 
-	public Carte()
+	public Carte(String CardName )
 	{
-
+		this.Cardname;
 	}
 
 	
 
 	public String getName(){
-		return "";
+		return this.name;
 	}
 
 	public int getPower(){
-		return 0;
+		return this.power;
 	}
 
 	public int getStrength(){
-		return 0;
+		return this.strength;
 	}
 
+	
 }

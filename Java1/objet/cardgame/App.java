@@ -1,5 +1,7 @@
 package cardgame;
 
+
+
 public class App 
 {
 
@@ -7,6 +9,9 @@ public class App
 
         Joueur pseudo = new Joueur("Zavar");
         display(pseudo);
+
+        Carte name = new Carte("paladin");
+        display(name);
         
     }
 
@@ -16,6 +21,13 @@ public class App
          System.out.println(Zavar.getPseudo());  
          
      }
+
+     public static void display(Carte name);
+     {
+         System.out.println(name.getName());
+     }
+
+     
 
 
      
