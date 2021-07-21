@@ -10,7 +10,7 @@ public class App
         Joueur pseudo = new Joueur("Zavar");
         display(pseudo);
 
-        Carte name = new Carte("paladin");
+        Carte name = new Carte("Paladin");
         display(name);
         
     }
@@ -22,9 +22,9 @@ public class App
          
      }
 
-     public static void display(Carte name);
+     public static void display(Carte Paladin);
      {
-         System.out.println(name.getName());
+         System.out.println(Paladin.getName());
      }
 
      

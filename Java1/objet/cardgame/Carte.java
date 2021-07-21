@@ -7,15 +7,15 @@ package cardgame;
  */
 public class Carte {
 
-	private String Cardname;
+	private String name;
 	private int power;
 	private int strength;
 	private Joueur joueur;
 	private TypeCarte type;
 
-	public Carte(String CardName )
+	public Carte(String Name)
 	{
-		this.Cardname;
+		
 	}
 
 	
