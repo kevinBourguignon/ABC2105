@@ -8,7 +8,9 @@ package cardgame;
  */
 public class Monstre  {
 
-	public Monstre(){
+	public Monstre()
+	{
+		
 
 	}
 

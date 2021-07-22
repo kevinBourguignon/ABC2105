@@ -13,7 +13,7 @@ public class Carte {
 	private Joueur joueur;
 	private TypeCarte type;
 
-	public Carte(String Name)
+	public Carte(String type)
 	{
 		
 	}
