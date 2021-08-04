@@ -11,3 +11,9 @@ CREATE TABLE IF NOT EXISTS players
     player_firstname VARCHAR(32) NULL,
     player_email VARCHAR(255) UNIQUE
 );
+
+CREATE TABLE IF NOT EXISTS cards
+(
+	card_name VARCHAR(20) PRIMARY KEY,
+    card_power INT,
+
