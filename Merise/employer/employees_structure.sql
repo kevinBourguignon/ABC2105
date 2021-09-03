@@ -10,8 +10,16 @@ USE db_employees;
 CREATE TABLE employees
 (
 	employee_id INT PRIMARY KEY,
-    employee_name VARCHAR(50) NOT NULL
+    employee_name VARCHAR(50) NOT NULL,
+    
 );
+
+CREATE TABLE services
+(
+	service_id INT PRIMARY KEY,
+    service_name VARCHAR(50) NOT NULL
+);
+
 
 CREATE TABLE projects
 (
