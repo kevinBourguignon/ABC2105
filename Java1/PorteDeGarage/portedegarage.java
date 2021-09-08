@@ -1,14 +1,16 @@
-package portedegarage;
+//package portedegarage;
 
 
 public class PorteDeGarage {
 
 	private double ouvertureEnPourcentage;
-	private boolean verrouille;
+	private boolean verrouiller;
 
 	
 	
 	public PorteDeGarage(){
+		verrouiller = true;
+		ouvertureEnPourcentage = 0;
 
 	}
 
@@ -34,11 +36,26 @@ public class PorteDeGarage {
 	}
 
 	public boolean verrouiller(){
-		return false;
+		return true;
+		
+		
+
 	}
 
 	public boolean deverouiller(){
-		return false;
+		
+		if(verrouiller = true && ouvertureEnPourcentage == 0)
+		{
+			System.out.println("la porte se déverouille");
+			verrouiller = false;
+			return false;
+		}
+		else{
+			System.out.println("la porte est déverrouillée");
+			return false;
+		}
+		
+
 	}
 
 	public boolean getVerouille(){
