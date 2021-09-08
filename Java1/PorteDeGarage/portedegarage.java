@@ -1,11 +1,14 @@
 package portedegarage;
 
 
-public class porte_de_garage {
+public class PorteDeGarage {
+
+		
+	
 
 	private double ouvertureEnPourcentage;
 	private boolean verrouille;
-
+	
 
 	public PorteDeGarage(){
 
@@ -43,5 +46,6 @@ public class porte_de_garage {
 	public boolean getVerouille(){
 		
 	}
-
+	
+	
 }
