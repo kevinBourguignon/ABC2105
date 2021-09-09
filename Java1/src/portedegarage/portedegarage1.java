@@ -3,96 +3,118 @@ package portedegarage;
 public class portedegarage1
 {
 
-	private double ouvertureEnPourcentage;
+		
+	private double ouverturePourcentage;
 	private boolean verrouille;
-	
 
 	
-	public portedegarage1(){
-		verrouille = true;
-		ouvertureEnPourcentage = 0;
 
+	public portedegarage1()
+	{
+		verrouille = true;					// définir état de base de la porte verrouillé et fermé
+		ouverturePourcentage = 0;
 	}
 
 
 	public boolean fermer(double pourcentageFermetureSupplementaire)
 	{
-		if(this.ouvertureEnPourcentage >=0 && this.ouvertureEnPourcentage >=100)
+		if(this.ouverturePourcentage >=0 && this.ouverturePourcentage <=100)
 		{
-			if(verrouille = false){
-				System.out.println("La porte se ferme a x % ");
+			if(verrouille = false)
+			{
+				System.out.println("La potre se ferme a x %");
 				return true;
 			}
-			else{
-				System.out.println(" La porte se fermé ");
+			else
+			{
+				System.out.println("La potre est fermée ");
 				return false;
 			}
+			
 		}
 		return false;
 	}
 
-	public boolean ouvrir(double pourcentageouverturesupplementaire){
-		if(this.ouvertureEnPourcentage >=0 && this.ouvertureEnPourcentage >=100)
+
+	public boolean ouvrir(double pourcentageOuvertureSupplementaire)
+	{
+		
+		if(this.ouverturePourcentage >=0 && this.ouverturePourcentage <=100)
 		{
-			if(verrouille = false){
-				System.out.println("La porte s'ouvre a x % ");
-				return true;
+			if(verrouille = false)
+			{
+				System.out.println("La potre s'ouvre a x %");
+				return true;	
 			}
-			else{
-				System.out.println(" La porte est ouvert ");
+			else
+			{
+				System.out.println("La potre est ouverte ");
 				return false;
 			}
+			
+			
 		}
 		return false;
 	}
-	
 
-	public boolean fermerTotalement(){
-		return false;
+	public boolean fermerTotalement()
+	{
+		ouverturePourcentage = 0;
+		return true;
 	}
 
-	public boolean ouvrirTotalement(){
-		return false;
+	public boolean ouvrirTotalement()
+	{
+		ouverturePourcentage = 100;
+		return true;
 	}
 
-	public double getOuvertureEnPourcentage(){
-		return 0;
+	public double getOuverturePourcentage()
+	{
+		if(this.ouverturePourcentage >=0 && this.ouverturePourcentage <=100);
+		return this.ouverturePourcentage;
 	}
 
-	public boolean verrouiller(){
-		if(verrouille = true)
+	public boolean verrouiller()
+	{
+		if(verrouille = false)
 		{
-			System.out.println("la porte se vérrouille");
-			verrouille = false;
-			return false;
-		}
-		else{
-			System.out.println("la porte est  vérrouille");
-			return false;
-		}
-		
-		
-
-	}
-
-	public boolean deverouiller(){
-		
-		if(verrouille = true && ouvertureEnPourcentage == 0)
-		{
-			System.out.println("la porte se déverouille");
+			System.out.println("la porte se verrouille");
 			verrouille = true;
 			return true;
 		}
-		else{
-			System.out.println("la porte est déverrouillée");
-			return true;
+		else
+		{
+			System.out.println("la porte est déja verrouillée");
+			return false;
 		}
 		
-
 	}
 
-	public boolean getVerouille(){
+	public boolean deverrouiller()
+	{
+		
+		if(verrouille = true && ouverturePourcentage == 0)
+		{
+			System.out.println("la porte se deverrouille");
+			verrouille = false;
+			return true;
+		}
+		else 
+		{
+			System.out.println("la porte est déja deverrouillée");
+			return false;
+		}
+		
+	}
+
+	public boolean getverrouille()
+	{
+		return true;
+	}
+
+
+	public boolean deverouiller() {
 		return false;
 	}
-
 }
