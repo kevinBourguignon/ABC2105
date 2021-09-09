@@ -9,7 +9,8 @@ public class App {
         portedegarage = new portedegarage1();
         boolean retour = portedegarage.deverouiller();
         boolean détour = portedegarage.verrouiller();
-       
+        boolean ferme = portedegarage.fermer();
+        boolean ouvre = portedegarage.ouvrir();
 
         
             
