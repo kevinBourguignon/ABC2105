@@ -1,12 +1,13 @@
-//spackage portedegarage;
+package portedegarage;
 
 
 public class App1 {
 
     public static void main(String[] args)
     {
-        PorteDeGarage portedekevinetdenis;
-        portedekevinetdenis = new PorteDeGarage();
+        portedegarage portedegarage1;
+        portedegarage1 = new portedegarage();
+        System.out.println("sa marche pas");
 
         
             
@@ -16,7 +17,7 @@ public class App1 {
 
 
         }
-
+        
      
   
 

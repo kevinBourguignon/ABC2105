@@ -4,7 +4,7 @@ public class portedegarage1
 {
 
 	private double ouvertureEnPourcentage;
-	private boolean verrouiller;
+	private boolean verrouille;
 	
 
 	
