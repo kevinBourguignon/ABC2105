@@ -15,15 +15,37 @@ public class portedegarage1
 	}
 
 
-	public boolean fermer(double pourcentageFermetureSupplementaire){
-		if()
+	public boolean fermer(double pourcentageFermetureSupplementaire)
+	{
+		if(this.ouvertureEnPourcentage >=0 && this.ouvertureEnPourcentage >=100)
+		{
+			if(verrouille = false){
+				System.out.println("La porte se ferme a x % ");
+				return true;
+			}
+			else{
+				System.out.println(" La porte se fermé ");
+				return false;
+			}
+		}
 		return false;
-
 	}
 
 	public boolean ouvrir(double pourcentageouverturesupplementaire){
+		if(this.ouvertureEnPourcentage >=0 && this.ouvertureEnPourcentage >=100)
+		{
+			if(verrouille = false){
+				System.out.println("La porte s'ouvre a x % ");
+				return true;
+			}
+			else{
+				System.out.println(" La porte est ouvert ");
+				return false;
+			}
+		}
 		return false;
 	}
+	
 
 	public boolean fermerTotalement(){
 		return false;
