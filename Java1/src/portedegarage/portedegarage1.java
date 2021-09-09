@@ -16,7 +16,9 @@ public class portedegarage1
 
 
 	public boolean fermer(double pourcentageFermetureSupplementaire){
+		if()
 		return false;
+
 	}
 
 	public boolean ouvrir(double pourcentageouverturesupplementaire){
@@ -36,7 +38,7 @@ public class portedegarage1
 	}
 
 	public boolean verrouiller(){
-		if(verrouille = false && ouvertureEnPourcentage == 0)
+		if(verrouille = true)
 		{
 			System.out.println("la porte se vérrouille");
 			verrouille = false;
