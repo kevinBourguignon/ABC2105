@@ -9,7 +9,7 @@ public class portedegarage1
 
 	
 	public portedegarage1(){
-		verrouiller = true;
+		verrouille = true;
 		ouvertureEnPourcentage = 0;
 
 	}
@@ -36,10 +36,10 @@ public class portedegarage1
 	}
 
 	public boolean verrouiller(){
-		if(verrouiller = false && ouvertureEnPourcentage == 0)
+		if(verrouille = false && ouvertureEnPourcentage == 0)
 		{
 			System.out.println("la porte se vérrouille");
-			verrouiller = false;
+			verrouille = false;
 			return false;
 		}
 		else{
@@ -53,10 +53,10 @@ public class portedegarage1
 
 	public boolean deverouiller(){
 		
-		if(verrouiller = true && ouvertureEnPourcentage == 0)
+		if(verrouille = true && ouvertureEnPourcentage == 0)
 		{
 			System.out.println("la porte se déverouille");
-			verrouiller = true;
+			verrouille = true;
 			return true;
 		}
 		else{

@@ -1,12 +1,12 @@
 package portedegarage;
 
 
-public class App1 {
+public class App {
 
     public static void main(String[] args)
     {
-        portedegarage portedegarage1;
-        portedegarage1 = new portedegarage();
+        portedegarage1 portedegarage;
+        portedegarage = new portedegarage1();
         System.out.println("sa marche pas");
 
         
@@ -16,7 +16,7 @@ public class App1 {
             
 
 
-        }
+        
         
      
   
