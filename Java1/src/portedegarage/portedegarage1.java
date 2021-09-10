@@ -124,7 +124,7 @@ public class portedegarage1
 
 	public boolean getverrouille()
 	{
-		return true;
+		return this.verrouille;
 	}
 
 
