@@ -85,7 +85,6 @@ public class portedegarage1
 
 	public double getOuverturePourcentage()
 	{
-		if(this.ouverturePourcentage >=0 && this.ouverturePourcentage <=100);
 		return this.ouverturePourcentage;
 	}
 
