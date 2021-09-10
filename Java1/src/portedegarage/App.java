@@ -9,8 +9,10 @@ public class App {
         portedegarage = new portedegarage1();
         portedegarage.deverrouiller();
         portedegarage.verrouiller();
-        portedegarage.fermer(5);
-        portedegarage.ouvrir(5);
+        portedegarage.ouvrirTotalement();
+        portedegarage.fermerTotalement();
+        portedegarage.fermer(55);
+        portedegarage.ouvrir(50);
 
         
             
