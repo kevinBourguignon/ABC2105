@@ -20,9 +20,10 @@ public class portedegarage1
 	{
 		if(this.ouverturePourcentage >=0 && this.ouverturePourcentage <=100)
 		{
-			if(verrouille = false)
+			if(verrouille == false)
 			{
-				System.out.println("La porte se ferme a x %" );
+				this.ouverturePourcentage = this.ouverturePourcentage +  pourcentageFermetureSupplementaire;
+				System.out.println("La porte se ferme a " +this.ouverturePourcentage + " % " );
 				return true;
 			}
 			else
@@ -32,6 +33,7 @@ public class portedegarage1
 			}
 			
 		}
+		System.out.println("Il faut un nombre entre 0 et 100");
 		return false;
 	}
 
@@ -56,37 +58,28 @@ public class portedegarage1
 					return false;
 				}
 				else{
-					System.out.println("Impossible Aled");
+					System.out.println("impossible la porte est verrouillée");
 					return false;
 				}
 
 
 			}
-			if(verrouille = false) // =(!verrouille)
-			{
-				System.out.println("La potre s'ouvre a x %");
-				return true;	
-			}
-			else
-			{
-				System.out.println("La potre est ouverte ");
-				return false;
-			}
-			
+						
 			
 		}
+		System.out.println("Il faut un nombre entre 0 et 100");
 		return false;
 	}
 
 	public boolean fermerTotalement()
 	{
-		ouverturePourcentage = 0;
+		this.ouverturePourcentage = 0;
 		return true;
 	}
 
 	public boolean ouvrirTotalement()
 	{
-		ouverturePourcentage = 100;
+		this.ouverturePourcentage = 100;
 		return true;
 	}
 
@@ -98,10 +91,10 @@ public class portedegarage1
 
 	public boolean verrouiller()
 	{
-		if(verrouille = false)
+		if(verrouille == false)
 		{
 			System.out.println("la porte se verrouille");
-			verrouille = true;
+			this.verrouille = true;
 			return true;
 		}
 		else
@@ -115,10 +108,10 @@ public class portedegarage1
 	public boolean deverrouiller()
 	{
 		
-		if(verrouille = true && ouverturePourcentage == 0)
+		if(verrouille == true && ouverturePourcentage == 0)
 		{
 			System.out.println("la porte se deverrouille");
-			verrouille = false;
+			this.verrouille = false;
 			return true;
 		}
 		else 
