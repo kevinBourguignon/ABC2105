@@ -23,11 +23,13 @@ nav {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
+    justify-content: start;
+
 }
 
 .navigation{
-    justify-content: start;
-
+    top: 0;
+   
 }
 
 
