@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-image: url(/Java1/src/HTLMetCSS/styles/image/781962-60.jpg);
+}
+
+nav {
+    margin-top: -10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div .navigation{
+    
+
+}
+
+
+
+
+
