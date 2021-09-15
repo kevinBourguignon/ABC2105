@@ -1,0 +1,10 @@
+body{
+    background-image: url(/Java1/src/vignoble/images/bg_motif.gif);
+    color: white;
+
+}
+
+hr{
+    width: 200%;
+    height: 300px;
+}
