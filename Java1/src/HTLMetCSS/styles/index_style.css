@@ -26,7 +26,8 @@ nav {
 }
 
 .navigation{
-    top: 0;
+    justify-content: start;
+
 }
 
 
