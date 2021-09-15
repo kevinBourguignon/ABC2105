@@ -1,4 +1,12 @@
 body{
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "Menu Tales_Of_Berseria";
+}
+
+body .corps{
+    grid-area: "Tales_Of_Berseria";
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -8,16 +16,23 @@ body{
 }
 
 nav {
+    grid-area: "Menu";
+    border: 2px solid blueviolet;
     margin-top: -10px;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-div .navigation{
+.navigation{
+    top: 0;
+}
+
+
     
 
-}
+
 
 
 
