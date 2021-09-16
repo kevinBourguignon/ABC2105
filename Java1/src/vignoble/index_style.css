@@ -3,6 +3,14 @@
     src: url(/Java1/src/vignoble/fonts/channel-webfont.svg)format(svg),
     url(/Java1/src/vignoble/fonts/channel-webfont.ttf)format(truetype),
     url(/Java1/src/vignoble/fonts/channel-webfont.woff)format(woff);
+
+    font-family: oldsh_;
+    src: url(/Java1/src/vignoble/fonts/oldsh___-webfont.woff)format(woff),
+    url(/Java1/src/vignoble/fonts/oldsh___-webfont.woff2)format(woff2),
+    url(/Java1/src/vignoble/fonts/OLDSH___.TTF)format(truetype),
+    url(/Java1/src/vignoble/fonts/OLDSIH__.TTF)format(truetype),
+    url(/Java1/src/vignoble/fonts/OLDSSCH_.TTF)format(truetype);
+    
 }
 body{
     background-image: url(/Java1/src/vignoble/images/bg_motif.gif);
@@ -12,9 +20,10 @@ body{
 }
 
 .header-container{
+    display: grid;
     grid-area: header-container;
     grid-template-rows: 55px;
-
+    border-bottom: 3px solid white;
 }
 
 .header-navigation{
@@ -22,23 +31,22 @@ body{
     text-align: right;
     right: 50px;
     word-spacing: 100px;
-    border-bottom: 3px solid white;
-    position: relative;
-    top: -280px;
+    position: relative;    
+    margin-right: -60px;
       
 }
 
 .logo{
-    position: relative;
-    top: 56px;
-    left: 400px;
+
+   position: relative;
+    top: 57px;
+    left: 200px;
     z-index: 5;
 }
 
 .vin{
-    position: relative;
-    top: -260px;
-    right: -650px;
+    width: 100%;
+
     
 }
 
@@ -79,4 +87,33 @@ body{
     color: white;
     text-decoration: none;
     font-family: channel;
+    margin-right: 60px;
+}
+
+main{
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: rgb(92, 91, 91);
+    padding-top: 10px;   
+}
+
+.raisin > figcaption{
+    text-align: center;
+    color: rgb(117, 3, 3);
+    border: 6px solid white;
+    background-color: white;
+    font-family: oldsh_;
+    font-size: x-large;
+    
+
+}
+
+flexbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 5%;
+    margin-left: 600px;
+    margin-right: 600px;
+    height: 500px;
 }
