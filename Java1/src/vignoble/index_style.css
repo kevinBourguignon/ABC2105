@@ -1,15 +1,82 @@
+@font-face {
+    font-family: channel;
+    src: url(/Java1/src/vignoble/fonts/channel-webfont.svg)format(svg),
+    url(/Java1/src/vignoble/fonts/channel-webfont.ttf)format(truetype),
+    url(/Java1/src/vignoble/fonts/channel-webfont.woff)format(woff);
+}
 body{
     background-image: url(/Java1/src/vignoble/images/bg_motif.gif);
     color: white;
     
+    
+}
+
+.header-container{
+    grid-area: header-container;
+    grid-template-rows: 55px;
 
 }
 
-hr{
-   size: 4;
-   
+.header-navigation{
+    grid-area: header-navigation;
+    text-align: right;
+    right: 50px;
+    word-spacing: 100px;
+    border-bottom: 3px solid white;
+    position: relative;
+    top: -280px;
+      
 }
 
-header{
-    align-items: center;
+.logo{
+    position: relative;
+    top: 56px;
+    left: 400px;
+    z-index: 5;
+}
+
+.vin{
+    position: relative;
+    top: -260px;
+    right: -650px;
+    
+}
+
+
+
+.header-accueil{
+    grid-area: header-accueil;
+    color: white;
+    text-decoration: none;
+    font-family: channel;
+}
+
+.header-html5{
+    grid-area: header-html5;
+    color: white;
+    text-decoration: none;
+    font-family: channel;
+    
+    
+}
+
+.header-CSS3{
+    grid-area: header-CSS3;
+    color: white;
+    text-decoration: none;
+    font-family: channel;
+}
+
+.header-application{
+    grid-area: header-application;
+    color: white;
+    text-decoration: none;
+    font-family: channel;
+}
+
+.header-contact{
+    grid-area: header-contact;
+    color: white;
+    text-decoration: none;
+    font-family: channel;
 }
