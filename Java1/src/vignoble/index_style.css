@@ -22,7 +22,7 @@ body{
 .header-container{
     display: grid;
     grid-area: header-container;
-    grid-template-rows: 55px;
+    grid-template-rows: 35px;
     border-bottom: 3px solid white;
 }
 
@@ -40,17 +40,14 @@ body{
 
    position: relative;
     top: 57px;
-    left: 200px;
+    left: 100px;
     z-index: 5;
 }
 
 .vin{
     width: 100%;
-
-    
+        
 }
-
-
 
 .header-accueil{
     grid-area: header-accueil;
@@ -58,6 +55,7 @@ body{
     text-decoration: none;
     font-family: channel;
 }
+
 
 .header-html5{
     grid-area: header-html5;
@@ -90,10 +88,56 @@ body{
     margin-right: 60px;
 }
 
+li {
+    list-style:none;
+    color:white;
+    padding:10px;
+    font-size:20px;
+    text-decoration:none;
+    }
+
+nav ul {
+    padding:0;
+    margin:0;
+    }
+
+    
+nav ul li {
+    list-style: none;
+    line-height:44px;
+    float:left;
+    
+ }
+
+nav ul li a {
+    color:white;
+    padding:10px;
+    font-size:20px;
+    text-decoration:none;
+    font-family: channel;
+}
+
+    
+nav ul li ul { display:none; } /* Rend le menu déroulant caché par défaut */
+
+nav ul li:hover ul { /* Affiche la dropNav au survol de la souris avec la class .drop */
+    z-index: 5;
+    display:list-item;
+    position:absolute;
+    margin-top:5px;
+    margin-left:-10px;
+    }
+
+
+ nav ul li:hover ul li {
+    float:none;
+    }
+
+
 main{
     margin-left: 20%;
     margin-right: 20%;
-    background-color: rgb(92, 91, 91);
+    background-color: rgb(92, 91, 91, 0.4);
     padding-top: 10px;   
 }
 
@@ -115,5 +159,52 @@ flexbox{
     border-radius: 5%;
     margin-left: 600px;
     margin-right: 600px;
-    height: 500px;
+    height: 500px;  
+     
 }
+
+hr{
+    border: none;
+    border-top: 2px solid rgb(231, 230, 230, 0.4);
+    height: -30px;
+}
+
+.flex-line{
+    
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font-family: channel;
+    font-size: small;
+    background-image: url(/Java1/src/vignoble/images/bg_g.png);
+}
+
+.bouteille{
+    align-self: flex-end;
+    margin-left: 20%;
+    
+}
+.verre{
+    align-self: flex-end;
+    margin-left: 20%;
+}
+.champagne{
+    align-self: flex-end;
+    margin-left: 20%;
+}
+h1{
+    color: white;
+   text-align: center;
+}
+
+p{
+    font-family: oldsh_;
+    font-size: medium;
+    color: black;
+    padding-left: 5%;
+    margin-right: 10%;
+}
+
+
+
+
