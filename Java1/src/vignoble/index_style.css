@@ -30,6 +30,7 @@ body{
     grid-area: header-navigation;
     text-align: right;
     right: 50px;
+    left: 400px;
     word-spacing: 100px;
     position: relative;    
     margin-right: -60px;
@@ -39,7 +40,7 @@ body{
 .logo{
 
    position: relative;
-    top: 57px;
+    top: 65px;
     left: 100px;
     z-index: 5;
 }
@@ -98,7 +99,11 @@ li {
 
 nav ul {
     padding:0;
+    background-color: rgb(3, 3, 3, 0.3);
     margin:0;
+    list-style-type: none;
+    
+    
     }
 
     
@@ -113,8 +118,9 @@ nav ul li a {
     color:white;
     padding:10px;
     font-size:20px;
-    text-decoration:none;
+    text-decoration: none;
     font-family: channel;
+    text-justify: auto;
 }
 
     
@@ -126,11 +132,15 @@ nav ul li:hover ul { /* Affiche la dropNav au survol de la souris avec la class 
     position:absolute;
     margin-top:5px;
     margin-left:-10px;
+    
     }
 
 
  nav ul li:hover ul li {
     float:none;
+    border-style: solid;
+    border-width: 1px ;
+    text-align: left;
     }
 
 
@@ -205,6 +215,106 @@ p{
     margin-right: 10%;
 }
 
+.LaCave a{
+    color: white;
+    background-color: rgb(185, 181, 181);
+    text-decoration: none;
+    border: 1px solid;
+    padding: 10px;
+    text-align: center;
+    font-family: Oldsh_;
+    font-size: large;
+    display: inline-block;
+    transition-duration: 2s;
+}
 
 
+.LaCave a:hover{
+    color: darkred;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    width: 100px;
+    height: 100px;
+    font-size: xx-large;
+}    
 
+.LeVigneron a{
+    color: white;
+    background-color: rgb(185, 181, 181);
+    text-decoration: none;
+    border: 1px solid;
+    padding: 10px;
+    text-align: center;
+    font-family: Oldsh_;
+    font-size: large;
+    display: inline-block;
+    transition-duration: 2s;
+}
+
+.LeVigneron a:hover{
+    color: darkred;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    width: 100px;
+    height: 100px;
+    font-size: xx-large;
+}
+
+.LesProduits a{
+    color: white;
+    background-color: rgb(185, 181, 181);
+    text-decoration: none;
+    border: 1px solid;
+    padding: 10px;
+    text-align: center;
+    font-family: Oldsh_;
+    font-size: large;
+    display: inline-block;
+    transition-duration: 2s;
+}
+
+.LesProduits a:hover{
+    color: darkred;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    width: 100px;
+    height: 100px;
+    font-size: xx-large;
+}
+
+hr{
+    color: white;
+   text-align: center;
+}
+
+.flex-line1{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font-family: channel;
+    font-size:large;
+    width: 300px;
+    margin-left: 20px;
+    background-color: rgb(92, 91, 91, 0.4);
+  
+}
+
+.Sélection  ul li{
+    border-top: solid 1px white;
+    width: 94%;
+    margin-top: -10%;
+    
+}
+
+.Sélection li a{
+    display: list-item;
+    font-family: Oldsh_;
+    margin-top: -8%;
+    text-align: center;
+    list-style-type: symbols();
+    
+    
+    
+    
+
+}
