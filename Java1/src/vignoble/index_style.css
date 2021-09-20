@@ -300,7 +300,7 @@ hr{
 }
 
 .Sélection  ul li{
-    border-top: solid 1px white;
+    border-top: solid 1px;
     width: 94%;
     margin-top: -10%;
     
@@ -311,10 +311,7 @@ hr{
     font-family: Oldsh_;
     margin-top: -8%;
     text-align: center;
-    list-style-type: ">";
-    
-    
-    
-    
+    color: black;
+   
 
 }
