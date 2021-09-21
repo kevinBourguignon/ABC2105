@@ -289,7 +289,7 @@ hr{
 
 .flex-line1{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     text-align: center;
     font-family: channel;
     font-size:large;
@@ -300,9 +300,10 @@ hr{
 }
 
 .Sélection  ul li{
-    border-top: solid 1px;
+    border-top: solid 2px;
     width: 94%;
     margin-top: -10%;
+    padding-bottom: 5%;
     
 }
 
@@ -310,8 +311,47 @@ hr{
     display: list-item;
     font-family: Oldsh_;
     margin-top: -8%;
+    float: left;
     text-align: center;
     color: black;
-   
+}
 
+.Sélection li img{
+    display: flex;
+    float: left;
+    margin-left: 25%;
+}
+
+.pinot{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 60%;
+    margin-left: 35%;
+    margin-top: -33%;
+    background-color: rgb(92, 91, 91, 0.4);
+    
+}
+
+.pinot h5{
+    display: flex;
+    font-family: channel;
+    font-size: large;
+    text-align: center;
+    padding-left: 30%;
+    padding: -65px;
+    margin-top: 4%;
+}
+
+.pinot h6 {
+   
+    
+}
+
+.pinot img{
+    width: 35%;
+    height: 80%;
+    margin-left: 2%;
+    margin-top: -100px;
+    
 }
