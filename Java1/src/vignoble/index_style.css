@@ -24,6 +24,7 @@ body{
     grid-area: header-container;
     grid-template-rows: 35px;
     border-bottom: 3px solid white;
+    background-color: black;
 }
 
 .header-navigation{
