@@ -34,7 +34,7 @@ body{
     left: 400px;
     word-spacing: 100px;
     position: relative;    
-    margin-right: -60px;
+    margin-right: -25px;
       
 }
 
@@ -232,8 +232,8 @@ p{
 
 .LaCave a:hover{
     color: darkred;
-    -webkit-transform: rotate(-45deg);
-    transform: rotate(-45deg);
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
     width: 100px;
     height: 100px;
     font-size: xx-large;
@@ -254,8 +254,8 @@ p{
 
 .LeVigneron a:hover{
     color: darkred;
-    -webkit-transform: rotate(-45deg);
-    transform: rotate(-45deg);
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
     width: 100px;
     height: 100px;
     font-size: xx-large;
@@ -276,8 +276,8 @@ p{
 
 .LesProduits a:hover{
     color: darkred;
-    -webkit-transform: rotate(-45deg);
-    transform: rotate(-45deg);
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
     width: 100px;
     height: 100px;
     font-size: xx-large;
@@ -342,17 +342,11 @@ hr{
     padding-left: 30%;
     padding: -65px;
     margin-top: 4%;
-}
-
-.pinot h6 {
-   
     
 }
 
-.pinot img{
-    width: 35%;
-    height: 80%;
-    margin-left: 2%;
-    margin-top: -100px;
+.poirot{
+    padding-top: 5%;
+    
     
 }
