@@ -288,65 +288,59 @@ hr{
    text-align: center;
 }
 
-.flex-line1{
+.container-wine{
+    display: grid;
+    grid-template-columns: 35% 65% ;
+    grid-template-rows: auto;
+    grid-template-areas: "selection gifts";
+    column-gap: 15px ;
+}
+
+.flex-selection{
     display: flex;
     flex-direction: column;
+
+}
+
+.flex-selection li{
+    list-style: inside url(/Java1/src/vignoble/images/liste.png);
+    margin-left: 30%;
+}
+
+
+
+
+
+
+footer{
+    background-image:url(/Java1/src/vignoble/images/img_footer.png) ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    padding: 2em;
+    border-top: 1px solid rgb(146, 145, 145);
+}
+
+footer nav{
+    display: grid;
+    grid-template-rows: 2;
+    grid-template-areas: "Accueil Cave vigneron produits contact."
+    "..... img";
+    
+}
+
+footer-picture{
+    display: grid;
+    grid-area: img;
+    
+    
+}
+
+footer nav ul{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: 1;
     text-align: center;
-    font-family: channel;
-    font-size:large;
-    width: 300px;
-    margin-left: 20px;
-    background-color: rgb(92, 91, 91, 0.4);
-  
+    vertical-align: middle;
 }
 
-.Sélection  ul li{
-    border-top: solid 2px;
-    width: 94%;
-    margin-top: -10%;
-    padding-bottom: 5%;
-    
-}
-
-.Sélection li a{
-    display: list-item;
-    font-family: Oldsh_;
-    margin-top: -8%;
-    float: left;
-    text-align: center;
-    color: black;
-}
-
-.Sélection li img{
-    display: flex;
-    float: left;
-    margin-left: 25%;
-}
-
-.pinot{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    width: 60%;
-    margin-left: 35%;
-    margin-top: -33%;
-    background-color: rgb(92, 91, 91, 0.4);
-    
-}
-
-.pinot h5{
-    display: flex;
-    font-family: channel;
-    font-size: large;
-    text-align: center;
-    padding-left: 30%;
-    padding: -65px;
-    margin-top: 4%;
-    
-}
-
-.poirot{
-    padding-top: 5%;
-    
-    
-}
