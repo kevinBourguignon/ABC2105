@@ -102,13 +102,41 @@ else{
 
 //________________________________________________________________________
 
-let d = new Date();
 
-let hours = d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds();
-alert(hours);
+/*let seconde = parseInt(prompt("Secondes"));
+let minute = parseInt(prompt("Minute"));
+let heure = parseInt(prompt("Heure"));
 
 
 
+seconde = seconde + 1;
+
+   if(seconde > 59){
+       seconde = 0;
+       minute = minute + 1;
+ }  
+       if(minute > 59){
+           minute = 0;
+           heure = heure + 1;
+           }
+           if(heure > 23){
+               heure = 0;
+               }
+           
+       console.log( + heure + ":" + minute + ":" + seconde );*/
+
+//____________________________________________________________________
+  
+const years = prompt("quel est le nombre entre deux année");
+const years1 = prompt("quel est le nombre entre deux année");
+
+
+ 
+
+   
+
+   
+  
 
 
 
