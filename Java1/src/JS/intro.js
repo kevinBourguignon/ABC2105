@@ -128,7 +128,9 @@ seconde = seconde + 1;
 //____________________________________________________________________
   
 const years = prompt("quel est le nombre entre deux année");
-const years1 = prompt("quel est le nombre entre deux année");
+let years1 = 2021;
+
+console.log(`votre nombre est compris de : ${years1-years}`);
 
 
  
