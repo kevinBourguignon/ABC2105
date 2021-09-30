@@ -127,10 +127,48 @@ seconde = seconde + 1;
 
 //____________________________________________________________________
   
-const years = prompt("quel est le nombre entre deux année");
+/*const years = prompt("quel est le nombre entre deux année");
 let years1 = 2021;
 
-console.log(`votre nombre est compris de : ${years1-years}`);
+console.log(`votre nombre est compris de : ${years1-years}`);*/
+
+
+//_______________________________________________________________________
+
+
+/*let nbr = prompt("Deviner le nombre entre 1 et 100")
+let nbrrandom = Math.floor(Math.random() * 100) + 1;
+while (true){
+    if(nbr > nbrrandom){
+        alert(" trop bas ")
+    }
+    else{
+        alert(" trop haut ")
+    }
+    if(nbrrandom == nbr){
+        alert(" bien jouer ! ")
+    }
+    break
+}*/
+
+//___________________________________________________________________________
+
+/*function fact(nbr){
+    var i, nbr, f = 1;
+    for(i = 1; i <= nbr; i++)  
+    {
+      f = f * i;  
+    }  
+    return f;
+  }
+  alert(fact(5));*/
+
+  //__________________________________________________________________________
+
+  //Exercice 3 :
+
+  
+
 
 
  
