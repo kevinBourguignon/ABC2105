@@ -167,11 +167,36 @@ while (true){
 
   //Exercice 3 :
 
+ /* let tableau = [23, 56, 10, 20, 6];
+
+  const nbr = 6;
+
+  for(let i = 0; i<tableau.length; i++){
+      if(nbr === tableau[i]){
+          console.log(nbr, "a trouver la valeur" +i);
+      }  
+  }*/
+
+  //_____________________________________________________________________________
+
+ /* let mot = prompt("mettre un mot pour savoir si ces un palindrome");
+  let motreverse = mot.split("").reverse().join("");
+
+ if(mot == motreverse){
+     alert("c'est un palindrome")
+ }
+ else{
+     alert("c'est pas un palindrome")
+ }*/
+
+ //________________________________________________________________________________
+    
+
+
+
+
+
   
-
-
-
- 
 
    
 
