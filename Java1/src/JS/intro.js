@@ -293,8 +293,32 @@ console.log("Tri croissant : " + tableau.join(", "))
 
  //Exos 4.3
 
- 
+ /* alert(factoriel(17))
 
+ function factoriel(nbr){
+     if(nbr == 0){
+         return 1;
+     }
+     else{
+         return nbr * factoriel(nbr-1);
+
+     }
+     
+ }*/
+
+
+//__________________________________________________________________________________
+
+/*function fibonnaci(nbr){
+
+    if(nbr < 2){
+        return nbr;
+    }
+
+    return fibonnaci(nbr-1) + fibonnaci(nbr-2)
+}
+
+console.log(fibonnaci(10));*/
  
 
   
