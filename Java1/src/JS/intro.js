@@ -58,7 +58,7 @@ document.write(res);
 
 //_______________________________________________________________________*/
 
-/* excercice 2
+/* excercice 2: 2.1
 
 let nbr
  nbr = prompt("saisir votre age")
@@ -73,6 +73,7 @@ else{
 }
 */
 //___________________________________________________________________________
+//Exos 2.2
 
 /*let Name
 let Name2
@@ -101,7 +102,7 @@ else{
 }*/
 
 //________________________________________________________________________
-
+//Exos 2.3
 
 /*let seconde = parseInt(prompt("Secondes"));
 let minute = parseInt(prompt("Minute"));
@@ -126,7 +127,8 @@ seconde = seconde + 1;
        console.log( + heure + ":" + minute + ":" + seconde );*/
 
 //____________________________________________________________________
-  
+  //Exos 2.4
+
 /*const years = prompt("quel est le nombre entre deux année");
 let years1 = 2021;
 
@@ -134,7 +136,7 @@ console.log(`votre nombre est compris de : ${years1-years}`);*/
 
 
 //_______________________________________________________________________
-
+//Exos 2.5
 
 /*let nbr = prompt("Deviner le nombre entre 1 et 100")
 let nbrrandom = Math.floor(Math.random() * 100) + 1;
@@ -152,6 +154,7 @@ while (true){
 }*/
 
 //___________________________________________________________________________
+//Exos 2.6
 
 /*function fact(nbr){
     var i, nbr, f = 1;
@@ -165,7 +168,8 @@ while (true){
 
   //__________________________________________________________________________
 
-  //Exercice 3 :
+  //Exercice 3 : 
+  //Exos 3.1
 
  /* let tableau = [23, 56, 10, 20, 6];
 
@@ -179,6 +183,8 @@ while (true){
 
   //_____________________________________________________________________________
 
+  //Exos 3.2
+
  /* let mot = prompt("mettre un mot pour savoir si ces un palindrome");
   let motreverse = mot.split("").reverse().join("");
 
@@ -190,11 +196,106 @@ while (true){
  }*/
 
  //________________________________________________________________________________
+    //Exos 3.3
+
+/*let tableau = [12, 15, 16, 94, 854, 245, 5, 84, 4, 65 ];
+let ptitnbr = 6549999999999999999999999999999999;
+
+for(let i = 0; i<tableau.length; i++){
+    if(ptitnbr > tableau[i]){
+        console.log(ptitnbr, " est de ", +i);
+        ptitnbr = tableau[i];
+        
+    }
+    else{
+            console.log(ptitnbr, " < ", tableau[i]);
+    }
+        console.log( " le petit nombre ", ptitnbr);
+        
+}*/
+
+//_____________________________________________________________________________________
+//Exos 3.4
+
+/*let tableau = [1, 54, 48, 68, 97, 52, 2, 35, 45];
+
+tableau.sort()
+console.log("Tri croissant : " + tableau.join(", "))*/
+
+//_______________________________________________________________________________________
+
+//Exercice 4 :
+//Exos 4.1
+
+ /*trirechercheduminimum([1, 54, 48, 68, 97, 52, 2, 35, 45]);
+
+function trirechercheduminimum(tableau){
+let ptitnbr = 6549999999999999999999999999999999;
+
+for(let i = 0; i<tableau.length; i++){
+    if(ptitnbr > tableau[i]){
+        console.log(ptitnbr, " est de ", +i);
+        ptitnbr = tableau[i];
+        
+    }
+    else{
+            console.log(ptitnbr, " < ", tableau[i]);
+    }
+        console.log( " le petit nombre ", ptitnbr);
+        
+}
+
+tableau.sort()
+console.log("Tri croissant : " + tableau.join(", "))
+}*/
+
+//_______________________________________________________________________________
+
+//Exos 4.2
+
+/*function isPalind(mot){
+  let mot = prompt("mettre un mot pour savoir si ces un palindrome");
+  let motreverse = mot.split("").reverse().join("");
+
+ if(mot == motreverse){
+     alert("c'est un palindrome")
+ }
+ else{
+     alert("c'est pas un palindrome")
+ }*/
+
+ /*let yolo = prompt("Saisir votre mot : ");
+ yolo = yolo.split("");
+ palindrome(yolo);
+
+ function palindrome(yolo) {
+   //str = chaine de caractere
+
+   if (yolo.length == 0 || yolo.length == 1) {
+  
     
+     console.log("c'est un palindrome");
+   } 
 
+   else if (yolo[0] == yolo[yolo.length -1]){
+       yolo.pop();
+       yolo.shift();
+       palindrome(yolo);
+   }
+     
+    else {
+        
+     console.log("ce n'est pas un palindrome");
+   }
+ }*/
 
+ //_____________________________________________________________________________
 
+ //Exos 4.3
 
+ 
+
+ 
 
   
 
