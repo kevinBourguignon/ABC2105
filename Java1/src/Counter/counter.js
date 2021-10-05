@@ -18,3 +18,4 @@ let span = document.querySelector("body div");
 let compteSeconde = new Compteur(0, 1000);
 
 span.parentElement.replaceChild(compteSeconde.spanElement, span);
+
