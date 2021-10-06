@@ -227,27 +227,27 @@ console.log("Tri croissant : " + tableau.join(", "))*/
 //Exercice 4 :
 //Exos 4.1
 
- /*trirechercheduminimum([1, 54, 48, 68, 97, 52, 2, 35, 45]);
+//  trirechercheduminimum([1, 54, 48, 68, 97, 52, 2, 35, 45]);
 
-function trirechercheduminimum(tableau){
-let ptitnbr = 6549999999999999999999999999999999;
+// function trirechercheduminimum(tableau){
+// let ptitnbr = 6549999999999999999999999999999999;
 
-for(let i = 0; i<tableau.length; i++){
-    if(ptitnbr > tableau[i]){
-        console.log(ptitnbr, " est de ", +i);
-        ptitnbr = tableau[i];
+// for(let i = 0; i<tableau.length; i++){
+//     if(ptitnbr > tableau[i]){
+//         console.log(ptitnbr, " est de ", +i);
+//         ptitnbr = tableau[i];
         
-    }
-    else{
-            console.log(ptitnbr, " < ", tableau[i]);
-    }
-        console.log( " le petit nombre ", ptitnbr);
+//     }
+//     else{
+//             console.log(ptitnbr, " < ", tableau[i]);
+//     }
+//         console.log( " le petit nombre ", ptitnbr);
         
-}
+// }
 
-tableau.sort()
-console.log("Tri croissant : " + tableau.join(", "))
-}*/
+// tableau.sort()
+// console.log("Tri croissant : " + tableau.join(", "))
+// }
 
 //_______________________________________________________________________________
 
