@@ -8,10 +8,10 @@ class Compteur {
             this.compte++;
             this.spanElement.textContent = this.compte;
         }, delaiEnMilisecondes);
+      
     }
-    
-
 }
+
 
 
 let span = document.querySelector("body div");
