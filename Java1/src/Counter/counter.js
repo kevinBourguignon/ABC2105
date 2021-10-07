@@ -1,5 +1,7 @@
+
+
 //Vous n'êtes pas obligés de comprendre la class compteur
-class Compteur {
+ class Compteur {
     constructor(début, delaiEnMilisecondes) {
         this.compte = début;
         this.spanElement = document.createElement("span");
@@ -11,6 +13,7 @@ class Compteur {
       
     }
 }
+
 
 
 
