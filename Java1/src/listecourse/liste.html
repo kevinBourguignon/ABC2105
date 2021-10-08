@@ -7,8 +7,20 @@
     <title>Document</title>
 </head>
 
-<body>
-    
+<body onLoad = "liste: listedecourse()">
+
+    <h1>Votre liste de course</h1>
+    <h2 id = 'nombreProduits'></h2>
+    <hr>
+
+    <button class = 'add' onClick = "liste: addItem()">+ Ajouter un produit</button>
+
+    <button class = 'clear' onClick="liste: clearList()">Vider ma liste de courses</button>
+
+    <div id='superList'></div>
+
+
+
     <script src="./liste.js"></script>
 </body>
 </html>
