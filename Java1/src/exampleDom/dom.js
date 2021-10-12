@@ -27,3 +27,8 @@ monLien.onclick = function () {
     let couleurJaune =  "rgb(255, 255, 0)" ;
     document.body.style.backgroundColor = couleurJaune ;
 }
+
+let newArticle = document.createElement("Article");
+nextElement.appendChild(newArticle);
+newArticle.textContent = "Mon nouvel article";
+
