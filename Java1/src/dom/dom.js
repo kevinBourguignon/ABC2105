@@ -29,6 +29,30 @@ monLien.onclick = function(){
 //         alert("Vous avez cliqué sur mon lien !");
 //     })
 
+let h2Article = document.createElement("h2");
+    h2Article.innerText = "Second article !";
+    nextElement.replaceChild(h2Article, nextElement.children[1]);
+
+let h3Article = document.createElement("h4");
+    h3Article.innerText = "Troisième article !";
+    nextElement.replaceChild(h3Article, nextElement.children[2]);
+
+let baliseButton = document.createElement("button");
+    h3Article.appendChild(baliseButton);
+
+    const button = document.querySelector('button');
+
+    button.addEventListener('click', onClick); 
+        button.textContent = "Nombre de clics";
+let click = 0;
+        function onClick(){
+            click += 1;
+            document.getElementById("click").innerText = click;
+        };
+
+
+    
+
 
 
 
