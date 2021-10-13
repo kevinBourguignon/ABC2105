@@ -37,18 +37,58 @@ let h3Article = document.createElement("h4");
     h3Article.innerText = "Troisième article !";
     nextElement.replaceChild(h3Article, nextElement.children[2]);
 
+let div = document.createElement("div");
+nextElement.appendChild(div);
+let p = document.createElement("p");
+div.appendChild(p);
+p.id = "click";
+
+
 let baliseButton = document.createElement("button");
     h3Article.appendChild(baliseButton);
+div.appendChild(baliseButton);
+    
 
-    const button = document.querySelector('button');
-
-    button.addEventListener('click', onClick); 
-        button.textContent = "Nombre de clics";
+    baliseButton.addEventListener('click',function(event){
+        event.stopPropagation();
+        event.preventDefault();
+        onClick();
+    }); 
+        baliseButton.textContent = "Nombre de clics";
 let click = 0;
         function onClick(){
-            click += 1;
-            document.getElementById("click").innerText = click;
-        };
+            click++;
+            document.getElementById("click").textContent = click;
+        }
+
+ let div1 = document.createElement("div1");
+h2Article.appendChild(div1);
+let p1 = document.createElement("p1");
+div1.appendChild(p1);
+p1.id = "clack";
+
+let button = document.createElement("button");
+nextElement.addEventListener("click", function(event){
+    event.stopPropagation();
+    event.preventDefault();
+    claque();
+});
+div1.appendChild(button);
+
+button.addEventListener("click", function(event){
+    event.stopPropagation();
+    event.preventDefault();
+    claque();
+});
+button.textContent = "clique ici"
+let clack = 0;
+        function claque(){
+            clack++;
+            document.getElementById("clack").textContent = clack;
+        }
+
+//
+
 
 
     
