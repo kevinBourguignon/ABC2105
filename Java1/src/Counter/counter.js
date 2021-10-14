@@ -5,25 +5,34 @@ class Compteur {
     constructor(début, delaiEnMilisecondes, elementHTML) {
         this.compte = début;
         this.elementHTML = elementHTML;
+        this.stop = false;
 
+       
         setInterval(() => {
             this.compte++;
             this.elementHTML.textContent = this.compte;
             let a = document.querySelectorAll("div");
             if(this.compte % 10 == 0){
-                for(let div of a ){
+               if(stop == false){
+                   for(let div of a ){
                     let red = Math.floor(Math.random()*200);
                     let blue = Math.floor(Math.random()*200);
                     let green = Math.floor(Math.random()*200);
                     div.style.backgroundColor = "rgba("+red+ ", "+blue+ "," +green+ ", 0.5)";
                     console.log(div);
+               } 
+                
 
                 }
             }
         }, delaiEnMilisecondes);
-    }
+    } 
+    stopcolor(){
+            this.stop = true;
+        }
 }
 
+let stop = document.getElementsByClassName("stop")[0];
 
 
 let div = document.getElementsByClassName("compteur-secondes")[0];
@@ -44,3 +53,4 @@ let compteMinute = new Compteur(0, 60000, empty);
   body.style.backgroundColor = "green";
 //  let secondes = new body(0, 2000, empty)
 console.log(compteSeconde.compte);
+
